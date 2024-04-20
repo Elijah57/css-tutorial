@@ -1,0 +1,76 @@
+/* units and sizes */
+
+/* 
+Absolute units - pixel (px)
+
+
+Relative unit are relative to something else, i.e the size of the parent element's font
+or the size of the view port
+
+
+ */
+
+
+
+/* font size, the deault size is 16px */
+p {
+    font-size: 26px;
+}
+
+/* by default block element takes 100% width of the space */
+header {
+    width: 50%;
+}
+/* the elements takes 50% of the page width */
+
+/* when to use absolute unit */
+h1 {
+    border:2px dashed red;
+    width: 50%;
+}
+/* the width of h1 is 50% of the parent element, header */
+
+/* 
+percentage represent a fraction of some another value, 1.e 50%
+percentage values are always relative to another quantity, 
+i.e an element's length is relative to its parent element's length */
+
+/* another relative unit rem
+rem- used mostly for font, font size relative to the root element 
+em - used also for font, the font size relative to the parent element 
+*/
+p {
+    /* font size is 2 * the root size (16) */
+    font-size: 2rem;
+}
+
+
+h1 {
+    border:2px dashed red;
+    width: 100%;
+    font-size: 3rem;
+    padding: 1em;
+}
+
+/* ch - limit the character per width */
+p {
+    width: 40ch;
+}
+
+/* 
+vw - view port width
+vh - view port height
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+

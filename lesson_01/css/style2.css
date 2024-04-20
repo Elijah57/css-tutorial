@@ -1,0 +1,26 @@
+/* color */
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    /* set color from background, i.e the background color of an element */
+
+    /* background-color: aqua; */
+    /* background  it is a short hand for background-color */
+    background: papayawhip;
+
+    /*set text color with names */
+    color: rebeccapurple;
+
+    /* set text color with rgb */
+    color: rgb(0,0,0);
+
+    /* set text color with rgba (Alpha channel (0 -1)- transparency) */
+    color: rgba(0,0,0,0.5 );
+
+    /* set text color with hexadecimals */
+    color: #c47676;
+}
+
+/* https://coolors.co  for picking colors and checking color contrast checker */

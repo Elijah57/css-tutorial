@@ -1,0 +1,53 @@
+.container {
+    /* margin: 25vh 2rem 25vh 2rem; */
+    border: 2px solid red;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+
+/* .form-label {
+    padding: 10px 10px 10px 10px;
+    margin-top: 0.5rem;
+} */
+
+
+h1 {
+    /* justify-content: center; */
+    margin: auto;
+    text-align: center;
+}
+
+/* .page{
+    margin-top: 20vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 3px solid grey;
+    border-radius: 3px;
+    background-color: antiquewhite;
+} */
+
+.form-input {
+    margin: auto;
+    width: 75%;
+}
+
+.btn {
+    margin: auto;
+}
+
+input {
+    display: block;
+    height: 2rem;
+    width: 75%;
+    margin-block: 0.5rem;
+}
+
+body {
+    background-color: bisque;
+}
+
+
+
+

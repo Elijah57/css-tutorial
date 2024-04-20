@@ -1,0 +1,67 @@
+
+/* universal selector - applies to all selector*/
+* {
+    font-family: monospace;
+}
+
+/* form elements do not inherit, typography, unless you set it */
+button, input, textarea, select {
+    font: inherit;
+}
+
+
+body {
+    font-size: 22px;
+    border: 5px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    font-family: monospace;
+}
+
+p {
+    /* font-size: 64px; */
+    color: purple!important;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+
+/* any span element in a paragraph element */
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
